@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="Rayolat.css" />
+    />
+  </head>
+  <body>
+    <h1 class="Form">Fill In The Form To Sign In</h1>
+    <form>
+      <fieldset>
+        <label
+          >First Name
+          <input placeholder="Enter Your First Name" required="" type="text" />
+        </label>
+        <label>
+          Last Name
+          <input placeholder="Enter Your Last Name" required="" type="text" />
+        </label>
+        <label>
+          Email
+          <input placeholder="Enter Your Email" required="" type="email" />
+        </label>
+        <label>
+          Password
+          <input
+            placeholder="Create a password"
+            type="password"
+            required=""
+            minlength="8"
+            pattern="[a-z0-5]{8,}"
+            min="1"
+            max="8"
+          />
+        </label>
+      </fieldset>
+      <fieldset class="radiobutton">
+        <div>
+          <legend>Type</legend>
+          <label for="buyer" class="inline"
+            ><input
+              type="radio"
+              class="inline"
+              name="buyer radio"
+              id="buyer"
+            />Buyer
+          </label>
+        </div>
+        <div>
+          <label for="vendor" class="inline"
+            ><input type="radio" class="inline" name="Type" id="vendor" />Vendor
+          </label>
+        </div>
+        <div>
+          <label for="both" class="inline"
+            ><input
+              type="radio"
+              class="inline"
+              name="Type"
+              id="both"
+            />Both</label
+          >
+        </div>
+      </fieldset>
+      <button class="Submit">Submit</button>
+    </form>
+  </body>
+</html>

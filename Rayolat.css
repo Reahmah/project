@@ -1,0 +1,180 @@
+/* body {
+  background-color: rgb(252, 252, 253);
+  padding: 20px;
+  background-image: url(./project\ \ \ web.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+
+body {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+/* 
+.name {
+  color: rgb(6, 110, 6);
+  text-align: center;
+  font-size: 40px;
+} */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.navigation {
+  width: 100%;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  color: rgb(6, 110, 6);
+}
+
+.container2 {
+  display: flex;
+  gap: 20px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: gray;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+input {
+  border: solid;
+  border-radius: 5px;
+  display: flex;
+  margin: 0px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Submit {
+  display: block;
+  width: 100%;
+  border: solid black;
+  min-height: 2em;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.container5 {
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(6, 110, 6);
+  width: 300px;
+  height: 400px;
+  padding: 10px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+  display: inline;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.Title {
+  font-size: 30px;
+  color: black;
+}
+li {
+  font-size: 20px;
+}
+
+.about {
+  align-items: center;
+  margin: auto auto;
+}
+
+.vendor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vendors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.logo {
+  background-color: antiquewhite;
+}
+
+.Name {
+  font-size: 14px;
+}
+
+.container7 {
+  background-color: white;
+  border: solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.container8 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.container9 {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container7:hover {
+  background-color: grey;
+
+  width: 310px;
+  height: 310px;
+  align-items: center;
+}
