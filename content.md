@@ -41,3 +41,151 @@
       variety of features to meet different needs in the currency exchange
       market.
     </p>
+
+<p>
+      Welcome to Rayolat Enterprise, your trusted partner in foreign exchange
+      services. Established in [Year], we have been dedicated to providing
+      seamless and reliable currency exchange solutions to both individuals and
+      businesses.
+    </p>
+    <strong class="Title">Who We Are</strong>
+
+    <p>
+      At Rayolat Enterprise, we understand the importance of efficient and
+      secure currency exchange. Our team of experienced professionals is
+      committed to delivering exceptional service, ensuring that your
+      transactions are handled with the utmost care and precision. We are
+      headquartered in Lagos, Nigeria, and our operations are fully compliant
+      with all regulatory standards set by the [Relevant Regulatory Authority].
+    </p>
+    <strong class="Title"> Our Services</strong>
+
+    <p>We offer a wide range of foreign exchange services, including:</p>
+    <ul>
+      <li>
+        <strong>Currency Exchange:</strong> Trade in major global currencies
+        such as the US Dollar, Euro, British Pound, and more.
+      </li>
+      <li>
+        <strong> Money Transfers:</strong> Fast andsecure international money
+        transfer services.
+      </li>
+      <li>
+        <strong>Corporate Solutions:</strong> Tailoredforeign exchange solutions
+        for businesses of all sizes.
+      </li>
+    </ul>
+
+    <strong class="Title">Why Choose Us</strong>
+    <ul>
+      <li>
+        <strong> Reliability:</strong> With years of experience in the industry,
+        we have built a reputation for reliability and trustworthiness.
+      </li>
+      <li>
+        <strong> Competitive Rates:</strong> We offer competitive exchange rates
+        to ensure you get the best value for your money.
+      </li>
+
+      <li>
+        <strong> Customer-Centric Approach: </strong> Our customer service team
+        is always ready to assist you with any queries or concerns, providing
+        personalized support to meet your needs.
+      </li>
+
+      <li>
+        <strong>Convenience:</strong> Place your orders online, via email, or by
+        phone, and our team will ensure a smooth and timely transaction process.
+      </li>
+    </ul>
+    <strong class="Title">Our Mission</strong>
+
+    <p>
+      Our mission is to make foreign exchange simple, fast, and accessible for
+      everyone. We strive to provide a hassle-free experience, allowing you to
+      focus on what matters most.
+    </p>
+    <strong class="Title">Contact Us</strong>
+
+    <p>
+      Have questions or need assistance? Feel free to reach out to us at
+      +2348023424736 ,08099736326. We look forward to serving you!
+    </p>
+<s>
+ <div class="container12">
+      <navbar class="navigation">
+        <div class="container">
+          <div class="container2">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">vendors</a>
+            <a href="#">About</a>
+            <a href="#">News</a>
+            <a href="#">Login in</a>
+            <a href="#">Sign in</a>
+          </div>
+        </div>
+      </navbar>
+      <div class="container15"></div>
+    </div>
+       <!-- -->
+    <div class="container12">
+      <navbar class="navigation">
+        <div class="container">
+          <div class="container2">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">vendors</a>
+            <a href="#">About</a>
+            <a href="#">News</a>
+            <a href="#">Login in</a>
+            <a href="#">Sign in</a>
+          </div>
+        </div>
+      </navbar>
+      <div class="calc">
+      <h1 class="name">CURRENCY</h1> 
+      <div class="container14"></div>
+      <div class="container15"></div>
+    </div>
+
+    
+    
+    <!-- <div>
+    <h1>What Our Customers Say About Us</h1>
+      <div class="container 9">
+    <div class="container7">
+        <p>Adekunle Ayomide</p>
+        <hr></hr>
+        <p></p>
+        </div>
+        <div class="container7">
+          <p>Adekunle Ayomide</p>
+          <hr></hr>
+          <p></p>
+          </div>
+          <div class="container7">
+            <p>Adekunle Ayomide</p>
+            <hr></hr>
+            <p></p>
+            </div>
+          </div>
+           <div class="container8">
+            <div class="container7">
+              <p>Adekunle Ayomide</p>
+              <hr></hr>
+              <p></p>
+              </div>
+              <div class="container7">
+                <p>Adekunle Ayomide</p>
+                <hr></hr>
+                <p></p>
+                </div>
+                <div class="container7">
+                  <p>Adekunle Ayomide</p>
+                  <hr></hr>
+                  <p></p>
+                  </div>
+                </div>
+      </div>
+    </div> -->
