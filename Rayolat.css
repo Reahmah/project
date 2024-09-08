@@ -461,9 +461,9 @@ input {
 
 .facts {
   font-size: 50px;
-  text-align: right;
   margin-right: 50px;
   color: #004838;
+  margin-block: 0;
 }
 
 ol {
@@ -472,11 +472,9 @@ ol {
 
 .comp {
   width: 500px;
-  text-align: right;
   margin-right: 50px;
-  align-items: right;
-  justify-content: right;
   display: grid;
+  margin-bottom: 0;
 }
 
 .customer {
@@ -526,11 +524,17 @@ footer {
 
 .create {
   color: #35ef8b;
-  align-items: left;
-  text-align: left;
-  margin-left: 70%;
+  display: grid;
+  align-items: right;
+  justify-content: right;
 }
 
+.icon {
+  gap: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 .globe {
   font-size: 70px;
   color: #d3fff5;
@@ -660,4 +664,26 @@ footer {
 
 .all {
   background-color: #e2e8e6;
+}
+
+.comp {
+  display: flex;
+  width: auto;
+  margin-left: 120px;
+}
+
+.vanex {
+  display: grid;
+  line-height: 40px;
+  text-align: left;
+}
+
+.vanex ol {
+  text-align: left;
+  margin-block: 0;
+}
+
+.facts {
+  margin-bottom: 0px;
+  text-align: left;
 }
