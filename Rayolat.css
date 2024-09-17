@@ -346,6 +346,7 @@ form {
   padding: 0 2em 2em 2em;
   border-radius: 5px;
   background-color: #e2e8e6;
+  box-sizing: border-box;
 }
 
 fieldset {
@@ -544,7 +545,6 @@ footer {
 .found {
   display: flex;
   margin-top: 40px;
-  justify-content: space-between;
 }
 
 .busi {
@@ -670,6 +670,7 @@ footer {
   display: flex;
   width: auto;
   margin-left: 120px;
+  margin-block: 100px;
 }
 
 .vanex {
@@ -686,4 +687,123 @@ footer {
 .facts {
   margin-bottom: 0px;
   text-align: left;
+}
+
+.costom {
+  background-color: #35ef8b;
+  border-radius: 10px;
+  width: 500px;
+  font-size: 32px;
+  padding: 50px;
+  color: #004838;
+}
+
+.custom {
+  display: flex;
+  gap: 100px;
+  width: auto;
+  margin-left: 300px;
+  margin-block: 100px;
+  align-items: center;
+}
+
+.costom p {
+  text-align: right;
+  font-size: 20px;
+}
+
+.save {
+  text-align: left;
+}
+
+.FAQ {
+  margin-left: 200px;
+}
+
+.logo-carousel {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.logo-carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-carousel-item {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.logo-carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.found {
+  margin-left: 200px;
+  gap: 100px;
+}
+
+.found p {
+  font-size: 14px;
+  width: 500px;
+}
+
+.global {
+  font-size: 50px;
+  color: #004838;
+  margin-top: 40px;
+}
+
+.container10 img {
+  width: 300px;
+  height: 280px;
+}
+
+.container10 {
+  background-color: #d3fff5;
+  font-size: 20px;
+  color: #004838;
+}
+
+.container5 img {
+  width: 300px;
+  height: 250px;
+}
+
+.container15 img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.container15 {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin: 100px;
+  gap: 40px;
+}
+
+.experts {
+  display: block;
+  text-align: left;
+  width: 500px;
+}
+
+.hit {
+  background-color: #e2e8e6;
 }
