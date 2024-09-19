@@ -207,6 +207,9 @@ h6 {
     font-size: 24px;
     width: 300px;
   }
+  .first-page {
+    background-image: none;
+  }
 }
 
 .vendor {
@@ -806,4 +809,87 @@ footer {
 
 .hit {
   background-color: #e2e8e6;
+}
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 10px;
+    padding: 20px;
+  }
+  .Resources {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container15 img {
+    display: none;
+  }
+  .container15 {
+    width: 300px;
+    margin-left: 5px;
+  }
+  .bank {
+    width: auto;
+    font-size: medium;
+    text-align: left;
+    margin-left: 5px;
+  }
+  .found img {
+    display: none;
+  }
+  .year {
+    margin: 0;
+  }
+  .found {
+    margin-left: 5px;
+  }
+  .global {
+    width: auto;
+    text-align: unset;
+    font-size: larger;
+  }
+  .comp img {
+    display: none;
+  }
+  .vanex {
+    margin-left: 5px;
+  }
+  .comp {
+    margin-left: 5px;
+  }
+  .custom {
+    margin-left: 5px;
+    width: 100px;
+    display: grid;
+  }
+  .save {
+    font-size: medium;
+    width: 300px;
+  }
+  .costom {
+    width: 300px;
+  }
+  .customer {
+    width: 300px;
+    font-size: xx-large;
+  }
+  .FAQ img {
+    display: none;
+    margin-left: 5px;
+  }
+  .FAQ {
+    display: grid;
+    margin-left: 5px;
+    width: 300px;
+  }
+  .faq {
+    margin-left: 5px;
+    width: 300px;
+  }
+  .palm {
+    font-size: xx-large;
+    text-align: left;
+    width: 300px;
+  }
 }
