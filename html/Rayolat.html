@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
     <title>RAYOLAT ENTERPRISE</title>
-    <link rel="stylesheet" href="../Rayolat.css" />
+    <link rel="stylesheet" href="/Rayolat.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,12 +36,12 @@
         <header>
           <nav class="navigation">
             <div class="container">
+              <img src="/image/Logo.png" alt="logo" />
               <div class="container2">
-                <a href="#">Home</a>
+                <a href="./Rayolat.html">Home</a>
                 <a href="./services.html">Services</a>
                 <a href="./vendors.html">Vendors</a>
                 <a href="./about.html">About</a>
-                <a href="./News.html">News</a>
                 <a href="./login.html">Login</a>
                 <a href="./Signin.html">Sign in</a>
               </div>
@@ -50,7 +56,7 @@
           <h1 class="currency">CURRENCY</h1>
         </div>
         <div class="combine">
-          <div class="calc"></div>
+          <div class="calculator"></div>
           <img class="people" src="/image/people.jpg" alt="people" />
         </div>
       </section>
@@ -115,7 +121,7 @@
       </div>
       <section class="Save">
         <div>
-          <h1>Save up to 12x when sending money abroad</h1>
+          <h1 class="save">Save up to 12x when sending money abroad</h1>
           <p class="pay">
             The World Payments is designed for cross-border businesses trading
             in multiple currencies. For importers and exporters, whether you do
@@ -140,47 +146,33 @@
             </div>
           </div>
         </div>
-        <img src="/image/feature-1.png" alt="" />
+        <img src="/image/feature-1.png" alt="" class="feature" />
       </section>
       <h1 class="global">We worked with global larges brands</h1>
       <div class="logo-carousel">
         <div class="logo-carousel-track" id="logoCarouselTrack">
           <div class="logo-carousel-item">
-            <img
-              src="https://via.placeholder.com/150x50?text=Logo+1"
-              alt="Logo 1"
-            />
+            <img src="/image/binance.png" alt="Logo 1" />
           </div>
           <div class="logo-carousel-item">
-            <imgs
-              src="https://via.placeholder.com/150x50?text=Logo+2"
-              alt="Logo 2"
-            />
+            <img src="/image/brokers.png" alt="Logo 2" />
           </div>
           <div class="logo-carousel-item">
-            <img
-              src="https://via.placeholder.com/150x50?text=Logo+3"
-              alt="Logo 3"
-            />
+            <img src="/image/ex trade.png" alt="Logo 3" />
           </div>
           <div class="logo-carousel-item">
-            <img
-              src="https://via.placeholder.com/150x50?text=Logo+4"
-              alt="Logo 4"
-            />
+            <img src="/image/luno.png" alt="Logo 4" />
           </div>
           <div class="logo-carousel-item">
-            <img
-              src="https://via.placeholder.com/150x50?text=Logo+5"
-              alt="Logo 5"
-            />
+            <img src="/image/view.png" alt="Logo 5" />
           </div>
         </div>
       </div>
+
       <div class="FAQ">
         <img src="/image/faq-1.png" alt="" />
         <div class="faq">
-          <h1 class="palm">Frequently asked questions to Palmela</h1>
+          <h1 class="palm">Frequently asked questions to Rayolat</h1>
 
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -259,7 +251,9 @@
               </div>
             </div>
           </div>
-          <button class="contact">Contact us</button>
+          <a href="https://whatsapp.com/dl/"
+            ><button class="contact">Contact us</button></a
+          >
         </div>
       </div>
 
@@ -328,5 +322,6 @@
         </div>
       </footer>
     </section>
+    <script src="./slider.js"></script>
   </body>
 </html>

@@ -15,8 +15,8 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
-  padding: 20px;
-  background-color: rgb(18, 227, 144);
+  padding: 10px;
+  background-color: white;
   border-radius: 30px;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .navigation a:hover {
-  color: #d3fff5;
+  color: #35ef8b;
 }
 
 .exc-cur {
@@ -892,4 +892,62 @@ footer {
     text-align: left;
     width: 300px;
   }
+  .bother img {
+    display: none;
+  }
+  .bother {
+    margin-left: 0;
+    width: 200px;
+  }
+  .busi {
+    font-size: xx-large;
+    width: 300px;
+  }
+  .phone {
+    width: 300px;
+  }
+  .phone p {
+    width: 300px;
+  }
+  .feature {
+    display: none;
+  }
+  .icons {
+    display: grid;
+  }
+  .Save h1 {
+    font-size: 24px;
+    width: 300px;
+  }
+  .Save {
+    padding: 5px;
+    display: grid;
+  }
+  .pay {
+    width: 300px;
+  }
+  .phones {
+    display: none;
+  }
+}
+.combine {
+  display: flex;
+}
+.Submit {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.vendors {
+  padding: 20px;
+}
+.vendor {
+  padding: 20px;
+}
+
+.box {
+  padding: 20px;
+}
+.box1 {
+  padding: 20px;
 }
