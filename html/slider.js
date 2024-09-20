@@ -19,3 +19,13 @@ window.onload = function () {
   const styleSheet = document.styleSheets[0];
   styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
 };
+
+
+// Get the menu toggle button and the off-canvas menu container
+const menuToggle = document.querySelector('.menu-toggle');
+const offCanvas = document.querySelector('.off-canvas');
+
+// Add an event listener to the menu toggle button
+menuToggle.addEventListener('click', () => {
+  offCanvas.classList.toggle('open');
+});
